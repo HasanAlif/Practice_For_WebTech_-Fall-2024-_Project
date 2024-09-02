@@ -389,3 +389,127 @@ main .recent-activities a{
     margin: 1rem auto;
     color: var(--color-primary);
 }
+
+
+/*===================Right=========================*/
+
+.right{
+    margin-top: 1.4rem;
+}
+
+.right .top{
+    display: flex;
+    justify-content: end;
+    gap: 2rem;
+}
+
+.right .top button{
+    display: none;
+}
+
+.right .theme-toggler{
+    background: var(--color-light);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 1.6rem;
+    width: 4.2rem;
+    cursor: pointer;
+    border-radius: var(--border-radius-1);
+}
+
+.right .theme-toggle span{
+    font-size: 1.2rem;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.right .theme-toggle span.active{
+    background: var(--color-primary);
+    color: white;
+    border-radius: var(--border-radius-1);
+}
+
+.right .top .profile{
+    display: flex;
+    gap: 2rem;
+    text-align: right;
+}
+
+.updates .update .notice-photo{
+    height: 100%;
+}
+
+
+
+/*=======================Student Analytics=========================*/
+
+.right .student-analytics{
+    margin-top: 2rem;
+}
+
+.right .student-analytics h2{
+    margin-bottom: 0.8rem;
+}
+
+.right .student-analytics .student{
+    background: var(--color-white);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.7rem;
+    padding: 1.4rem var(--card-padding);
+    border-radius: var(--border-radius-3);
+    box-shadow: var(--box-shadow);
+    transition: all 300ms ease;
+}
+
+.right .student-analytics .student:hover{
+    box-shadow: none;
+}
+
+.right .student-analytics .student .right{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin: 0;
+    width: 100%;
+}
+
+.right .student-analytics .student .icon{
+    padding: 0.6rem;
+    color: var(--color-white);
+    border-radius: 50%;
+    background: var(--color-primary);
+    display: flex;
+}
+
+.right .student-analytics  .new-addmited .icon{
+    background: var(--color-success);
+}
+
+.right .student-analytics .new-terminated .icon{
+    background: var(--color-danger);
+}
+
+.right .student-analytics .add-student{
+    background-color: transparent;
+    border: 2px dashed var(--color-primary);
+    color: var(--color-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right .student-analytics .add-student div{
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.right .student-analytics .add-student div h3{
+    font-weight: 600;
+}
